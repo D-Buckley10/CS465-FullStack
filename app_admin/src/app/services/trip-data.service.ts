@@ -9,7 +9,7 @@ export class TripDataService {
   constructor(private http: Http) { }
 
   private apiBaseUrl = 'http://localhost:3000/api/';
-  private tripUrl = `${this.apiBaseUrl}trips/`;
+  private tripUrl = `${this.apiBaseUrl}trips`;
 
   public addTrip(formData: Trip): Promise<Trip> {
     console.log('Inside TripDataService#addTrip');
@@ -30,15 +30,14 @@ export class TripDataService {
 
   }
 
-  public getTrips(): Promise<Trip> {
+  public getTrips(): Promise<Trip[]> {
     console.log('Inside TripDataService#getTrips');
     return this.http  
       .get(this.tripUrl)
       .toPromise()
-      .then(response => response.json() as Trip)
+      .then(response => response.json() as Trip[])
       .catch(this.handleError);
   }
-
 
   public updateTrip(formData: Trip): Promise<Trip> {
     console.log('Inside TripDataService#updateTrip');

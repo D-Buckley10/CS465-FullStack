@@ -13,7 +13,7 @@ import { Trip } from '../models/trip';
 export class TripListingComponent implements OnInit {
 
   //trips: Array<any> = trips;
-  trips: Trip;
+  trips: Trip[];
 
   message: string;
 
