@@ -49,11 +49,13 @@ process.once('SIGUSR2', () => {
     process.kill(process.pid, 'SIGUSR2');
   });
 });
+
 process.on('SIGINT', () => {
   gracefulShutdown('app termination', () => {
     process.exit(0);
   });
 });
+
 process.on('SIGTERM', () => {
   gracefulShutdown('Heroku app shutdown', () => {
     process.exit(0);
@@ -63,3 +65,4 @@ process.on('SIGTERM', () => {
 connect();
 
 require('./travlr');
+require('./user');
