@@ -25,7 +25,7 @@ In the application that I created, the use of partials and handlebars were imple
 The methods that were used for testing the API endpoints were mostly conducted with Postman. GET and POST requests were done with this application to test the validity of the request and responses to and from the endpoints. Postman also allowed for testing user authorization with a built-in feature that requires the access of the proper web token in order to login to the site.
 
 
-### Reflection 
-How has this course helped you in reaching your professional goals? What skills have you learned, developed, or mastered in this course to help you become a more marketable candidate in your career field?
+## Reflection 
+### How has this course helped you in reaching your professional goals? What skills have you learned, developed, or mastered in this course to help you become a more marketable candidate in your career field?
 
 This course has shown me the concepts, methods, and approaches that are taken into developing a full-stack application. WHile I have worked with security features and dabatabse features in the past, merging all of the previously learned concepts into a single assignment felt extremely rewarding. Working with HTML, Angular, Express, and Node were all fairly new to me in before this course. Understanding how to utilize other programs that were of help in this course such as Studio 3T and Postman make me more equipped to work with websites and databases.
