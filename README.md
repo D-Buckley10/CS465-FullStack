@@ -20,9 +20,12 @@ JSON isn't a programming language, unlike Javascript, but instead a formatting s
 In the application that I created, the use of partials and handlebars were implemented in the Express HTML component of the website. For the backend SPA, the trip card component is capable to be duplicated for the amount of trips that exist in the database as well as display the unique information for each trip. The benefits that come from having reusable user interface components is the ability to use these components across multiple pages of the website. In the case of the backend, it makes the information that is displayed uniform and appealing to look at.
 
 ## Testing 
-### Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. Explain your understanding of methods, endpoints, and security in a full stack application.
+### Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. 
 
+The methods that were used for testing the API endpoints were mostly conducted with Postman. GET and POST requests were done with this application to test the validity of the request and responses to and from the endpoints. Postman also allowed for testing user authorization with a built-in feature that requires the access of the proper web token in order to login to the site.
 
 
 ### Reflection 
 How has this course helped you in reaching your professional goals? What skills have you learned, developed, or mastered in this course to help you become a more marketable candidate in your career field?
+
+This course has shown me the concepts, methods, and approaches that are taken into developing a full-stack application. WHile I have worked with security features and dabatabse features in the past, merging all of the previously learned concepts into a single assignment felt extremely rewarding. Working with HTML, Angular, Express, and Node were all fairly new to me in before this course. Understanding how to utilize other programs that were of help in this course such as Studio 3T and Postman make me more equipped to work with websites and databases.
